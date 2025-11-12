@@ -1,0 +1,62 @@
+/* Name:Dillon Bales 
+File: styles.css
+Date: 10/29/2024 */
+
+body, header, main {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: #89b0ac;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+header h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+fieldset {
+    font-family: "Roboto", sans-serif;
+}
+
+fieldset legend{
+    font-weight: bold;
+    font-size: 1.25em
+}
+
+#info input {
+    margin: 1%;
+}
+
+#interest input {
+    margin: 1% 
+}
+
+#interest #pro {
+    margin: 1% 0 1% 0;
+}
+
+#interest #net, #interest #mob, #interest #web {
+    margin: 1% 0 1% 5%;
+}
+
+#interest label{
+    margin: 0; 
+}
+
+#referral select {
+    margin: 1% 0 1% 0;
+}
+
+
+
+#misc #submit {
+    padding: 0.25%;
+    font-size: large;
+    background-color: #f0dfa8;
+    border: none;
+}
